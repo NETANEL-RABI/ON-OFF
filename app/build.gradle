@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.videoblocker"
-        minSdk 21  // תמיכה במכשירים ישנים וחדשים כאחד
+        minSdk 21
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -20,14 +20,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    // הבלוק החסר שפותר את השגיאה:
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
-    // ספריות הבסיס והעיצוב הרשמיות של אנדרואיד
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
