@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מנהל נגן</string>
+    <string name="service_description">שירות נגישות חיוני להגנה על נגן המוזיקה וחסימת תכנים לא מורשים.</string>
+    
+    <string name="title_main">הגדרות הגנת נגן</string>
+    <string name="hint_enter_code">הקש קוד חדש (6 ספרות)</string>
+    <string name="btn_save">שמור קוד נעילה</string>
+    <string name="label_block_status">מצב חסימת וידאו והגדרות:</string>
+    <string name="btn_accessibility">הפעל שירות נגישות במכשיר</string>
+
+    <string name="title_locked">הגישה חסומה</string>
+    <string name="hint_unlock_code">הקש קוד 6 ספרות לשחרור</string>
+    <string name="btn_unlock">אישור</string>
+</resources>
